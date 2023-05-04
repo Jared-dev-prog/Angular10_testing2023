@@ -1,0 +1,18 @@
+table {
+  width: 100%;
+}
+
+.table-container {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.button-add {
+  margin: 10px 0;
+}
+
+.flex-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  height: auto;
+}

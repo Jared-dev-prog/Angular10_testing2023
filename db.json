@@ -1,0 +1,26 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Test",
+      "age": 12
+    }
+  ],
+  "computers": [
+    {
+      "id": 1,
+      "model": "H23F",
+      "brand": "Lenovo Actualizado"
+    },
+    {
+      "id": 2,
+      "brand": "HP",
+      "model": "Pavillion 34"
+    },
+    {
+      "model": "TX-334",
+      "brand": "Huawei",
+      "id": 3
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 20px auto;
+}
+
+button {
+  width: 50%;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}

@@ -1,0 +1,31 @@
+<div class="form-container">
+  <form class="example-form" *ngIf="formLogin" [formGroup]="formLogin">
+    <mat-form-field class="example-full-width">
+      <mat-label>Usuario</mat-label>
+      <input
+        matInput
+        placeholder="Ingresa tu usuario"
+        formControlName="email"
+      />
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+      <mat-label>Password</mat-label>
+      <input
+        matInput
+        placeholder="Ingresa tu password"
+        type="password"
+        formControlName="password"
+      />
+    </mat-form-field>
+
+    <button
+      mat-raised-button
+      color="primary"
+      [disabled]="formLogin.invalid || isLoading"
+      (click)="login()"
+    >
+      Ingresar
+    </button>
+  </form>
+</div>

@@ -1,0 +1,22 @@
+<div class="form-container">
+  <form class="example-form" *ngIf="formComputer" [formGroup]="formComputer">
+    <mat-form-field class="example-full-width">
+      <mat-label>Marca</mat-label>
+      <input matInput placeholder="Ingresa la marca" formControlName="brand" />
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+      <mat-label>Modelo</mat-label>
+      <input matInput placeholder="Ingresa el modelo" formControlName="model" />
+    </mat-form-field>
+
+    <button
+      mat-raised-button
+      color="primary"
+      [disabled]="formComputer.invalid"
+      (click)="saveComputer()"
+    >
+      Guardar
+    </button>
+  </form>
+</div>
